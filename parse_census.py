@@ -32,17 +32,17 @@ def parse_census(filename):
 if __name__ == "__main__":
 
     filenames = [
-        "census-out-15467-16p_1month_1_A-Pri.txt",
-        "census-out-15538-16p_1month_1_B-Pri.txt",
-        "census-out-16385-16p_1month_2_A-Jorge.txt",
-        "census-out-16386-16p_1month_2_B-Jorge.txt"
+        "census-out_1_A-P.txt",
+        "census-out-1_B-P.txt",
+        "census-out-A-J.txt",
+        "census-out-B-J.txt"
     ]
 
     output_filenames = [
-        "data/census-out-15467-16p_1month_1_A-Pri.txt",
-        "data/census-out-15538-16p_1month_1_B-Pri.txt",
-        "data/census-out-16385-16p_1month_2_A-Jorge.txt",
-        "data/census-out-16386-16p_1month_2_B-Jorge.txt"
+        "/data/census-out_1_A-P.txt",
+        "/data/census-out-1_B-P.txt",
+        "/data/census-out-A-J.txt",
+        "/data/census-out-B-J.txt""
     ]
 
     for f, o in zip(filenames, output_filenames):
