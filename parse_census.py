@@ -1,7 +1,7 @@
 import os
 
 os.getcwd()
-os.chdir("/Users/pramod/Desktop/Proteomics/16p_proteomics_1m_organoids")
+os.chdir("/Users/pramod/Desktop/Proteomics/")
 
 def parse_census(filename):
     current_protein = None
